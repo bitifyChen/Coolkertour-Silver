@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 沈浸式建案風格全域樣式 */
+:root {
+  /* 思源宋體 Noto Serif TC 為高端華人設計首選 */
+  font-family: 'Noto Serif TC', serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #0F172A; /* 採用深色底色，營造大器感 */
+  color: #F8FAFC;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* 滾動動畫 Utility */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 建案風格：大篇幅圖片過場 */
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 標題基礎 */
+h1, h2, h3 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+/* 優雅細線：使用更亮的新金色 #D9B061 */
+.divider-gold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #D9B061, transparent);
+  width: 100%;
+}
+
+/* 金色發光效果 (用於高端點綴) */
+.gold-glow {
+  text-shadow: 0 0 10px rgba(217, 176, 97, 0.3);
+}
+
+.border-gold-light {
+  border-color: rgba(217, 176, 97, 0.2);
+}

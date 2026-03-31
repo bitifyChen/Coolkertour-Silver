@@ -1,0 +1,134 @@
+[
+  {
+    "id": "T001",
+    "title": "極境之巔：玉山慢活巡禮",
+    "subtitle": "慢活，看見雲海最美的姿態",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200",
+    "days": 3,
+    "price": 45800,
+    "features": ["低海拔住宿", "專車到點", "軟食友善"],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "初見雲海：塔塔加巡禮",
+        "desc": "抵達阿里山後，轉乘專屬保母車前往塔塔加，感受高山清新的空氣與壯闊視野。",
+        "attractions": [
+          {
+            "name": "塔塔加遊客中心",
+            "desc": "遠眺玉山主峰的最佳位置，並在專業導覽下了解高山生態。",
+            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800"
+          },
+          {
+            "name": "雲之端景觀台",
+            "desc": "觀賞波瀾壯闊的雲海，感受漫步雲端的悠閒體驗。",
+            "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=800"
+          }
+        ],
+        "accommodation": "阿里山賓館 - 現代行館 (全台最高海拔五星酒店)",
+        "meals": {
+          "breakfast": "自理",
+          "lunch": "塔塔加風味套餐 (軟食優化)",
+          "dinner": "賓館主廚創意晚宴"
+        }
+      },
+      {
+        "day": 2,
+        "title": "神木與星空：沈浸森林浴",
+        "desc": "早上 10 點出發，在神木群中享受芬多精，體驗阿里山的靜謐靈動。",
+        "attractions": [
+          {
+            "name": "阿里山巨木群棧道",
+            "desc": "規劃完善的無障礙步道，帶您近距離接觸千年神木，呼吸森林精華。",
+            "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800"
+          },
+          {
+            "name": "姊妹潭靜心",
+            "desc": "平靜如鏡的湖水反映著山色，是放鬆心情的最佳去處。",
+            "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&q=80&w=800"
+          }
+        ],
+        "accommodation": "阿里山賓館 - 現代行館",
+        "meals": {
+          "breakfast": "賓館五星自助早膳",
+          "lunch": "山林野餐餐盒",
+          "dinner": "原民特色低鈉合菜"
+        }
+      },
+      {
+        "day": 3,
+        "title": "慢活回程：檜木故鄉巡禮",
+        "desc": "在悠閒的午後茶點後，由專車接送返回溫暖的家。",
+        "attractions": [
+          {
+            "name": "檜意森活村",
+            "desc": "全台最大的日式建築群，漫步其中感受歲月的溫柔與木質的芬芳。",
+            "image": "https://images.unsplash.com/photo-1528164344705-4754268799af?auto=format&fit=crop&q=80&w=800"
+          }
+        ],
+        "accommodation": "溫暖的家",
+        "meals": {
+          "breakfast": "賓館五星自助早膳",
+          "lunch": "嘉義特色火雞肉飯定食",
+          "dinner": "自理"
+        }
+      }
+    ]
+  },
+  {
+    "id": "T002",
+    "title": "澄湖逸旅：日月潭湖畔之舞",
+    "subtitle": "不趕路，把時間留給湖光山色",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=1200",
+    "days": 2,
+    "price": 28800,
+    "features": ["湖景套房", "遊湖包船", "低鈉餐食"],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "湖光倒影：專屬包船遊湖",
+        "desc": "避開觀光人潮，安排私人豪華遊艇，在湖心享受下午茶。",
+        "attractions": [
+          {
+            "name": "涵碧步道漫步",
+            "desc": "平緩的湖畔步道，是晨間散步的最佳選擇，靜聽湖水輕拍岸邊。",
+            "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=800"
+          },
+          {
+            "name": "水社碼頭私享遊艇",
+            "desc": "搭乘專屬遊艇橫跨潭面，在靜謐的湖心享受精品級下午茶。",
+            "image": "https://images.unsplash.com/photo-1493246507139-91e8bef99c17?auto=format&fit=crop&q=80&w=800"
+          }
+        ],
+        "accommodation": "涵碧樓 (擁抱日月潭絕美湖景)",
+        "meals": {
+          "breakfast": "自理",
+          "lunch": "邵族風味無菜單料理",
+          "dinner": "涵碧樓精緻中式晚宴"
+        }
+      },
+      {
+        "day": 2,
+        "title": "親手作溫度：紅茶文化體驗",
+        "desc": "造訪紅茶工坊，親手揉捻茶葉，體驗慢節奏的手作快樂。",
+        "attractions": [
+          {
+            "name": "向山遊客中心",
+            "desc": "欣賞日本建築大師團紀彥的作品，簡潔線條與湖水完美融合。",
+            "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800"
+          },
+          {
+            "name": "日月老茶廠",
+            "desc": "在充滿茶香的歷史建築中，感受昔日紅茶故鄉的榮光與文化。",
+            "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&q=80&w=800"
+          }
+        ],
+        "accommodation": "溫暖的家",
+        "meals": {
+          "breakfast": "涵碧樓經典早膳",
+          "lunch": "湖畔創意輕食料理",
+          "dinner": "自理"
+        }
+      }
+    ]
+  }
+]
